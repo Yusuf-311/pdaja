@@ -1,0 +1,19 @@
+.text-red:hover {
+  color: #e6262c;
+}
+.nav-link:hover {
+  color: #e6262c !important;
+}
+
+.bg-red {
+  background-color: #e6262c;
+}
+
+.btn-red {
+  background-color: #ff0101;
+  color: #ffff;
+}
+
+.callout {
+  border-left: 0.25rem solid #e6262c99 !important;
+}

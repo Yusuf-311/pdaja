@@ -1,0 +1,738 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>PDaja.com - Pinjaman Multiguna</title>
+    <!-- SEO Meta Tags-->
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Favicon and Touch Icons-->
+
+    <!-- Import Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+      id="google-font"
+    />
+    <!-- Vendor styles-->
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="vendor/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="vendor/chartist/dist/chartist.css" />
+
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="css/theme.min.css" />
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Bootstrap CDN icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <main>
+      <header class="navbar navbar-expand-lg shadow fixed-top bg-light">
+        <div class="container">
+          <a class="navbar-brand pe-sm-3" href="index.html">
+            <img
+              src="assets/icon/pdajacom.png"
+              width="100px"
+              height="50px"
+              alt=""
+            />
+          </a>
+
+          <button class="btn btn-danger order-5 d-lg-flex d-md-flex d-none">
+            Kontak kami
+          </button>
+          <button
+            class="navbar-toggler ms-sm-3 collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-expanded="false"
+            id="menuButton"
+          >
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ff0101/40/menu--v1.png"
+              alt="menu--v1"
+              id="menuIcon"
+            />
+          </button>
+
+          <nav class="navbar-collapse collapse" id="navbarNav" style="">
+            <ul
+              class="navbar-nav navbar-nav-scroll me-auto"
+              style="--ar-scroll-height: 520px"
+            >
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tentang Kami</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Produk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Agen</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Statistik</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Artikel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cek Status</a>
+              </li>
+              <li>
+                <button
+                  class="btn btn-danger text-center text-lg-start d-lg-none d-md-none"
+                >
+                  Kontak kami
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Hero -->
+      <section class="container-fluid px-0 py-5 pb-md-6">
+        <div class="row g-0 align-items-xl-center">
+          <div class="col-lg-6 col-md-7 text-end order-md-2">
+            <img
+              class="d-inline-block"
+              src="http://127.0.0.1:5501/img/demo/business-consulting/hero-img.jpg"
+              alt="Business people"
+              width="945"
+            />
+          </div>
+          <div class="col-lg-6 col-md-5 pt-5 pb-3 py-md-5">
+            <div
+              class="mx-auto me-md-5 me-xl-7 ps-3 py-md-3 order-md-1"
+              style="max-width: 516px"
+            >
+              <h1 class="mb-grid-gutter pb-1">
+                Solusi Keuangan Terpercaya dan Cepat
+              </h1>
+              <p
+                class="callout d-block d-md-none d-lg-block fs-lg text-muted mb-grid-gutter"
+              >
+                Kami siap membantu Anda mengatasi masalah keuangan Anda. Jangan
+                ragu untuk menghubungi tim kami jika Anda memiliki pertanyaan
+                atau membutuhkan bantuan. Kami berkomitmen untuk memberikan
+                layanan yang terbaik kepada Anda.
+              </p>
+              <div class="pt-2">
+                <a
+                  class="btn btn-danger"
+                  data-sub-html='&lt;h6 class="fs-sm text-light"&gt;Around Consulting&lt;/h6&gt;'
+                  ><span class="fs-sm">Ajukan Pinjaman</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Benefit -->
+      <section class="container">
+        <div class="row align-items-center py-4 py-xl-5 my-2">
+          <div class="col-md-6 offset-xl-1 order-md-2 pb-2 mb-4 mb-md-0">
+            <img
+              class="rounded-3"
+              src="https://images.unsplash.com/photo-1601597110547-78516f198ce4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80"
+              alt="Image"
+            />
+          </div>
+          <div class="col-md-6 col-xl-5 order-md-1">
+            <div class="pe-md-4 pe-xl-0">
+              <h2 class="h1 pb-2 pb-lg-3">
+                Keunggulan <span class="text-danger">PD</span>aja.com
+              </h2>
+              <p class="pb-2 pb-lg-0 mb-4 mb-lg-5">
+                Class aptent taciti sociosqu ad litora torquent per conubia
+                nostra, per inceptos himenaeos. Aenean auctor cursus tortor non
+                fermentum. Fusce ornare pulvinar nibh, sed facilisis eros congue
+                pretium. Suspendisse et fermentum massa.
+              </p>
+              <div class="row row-cols-2">
+                <div class="col mb-4">
+                  <div class="d-table bg-secondary rounded-1 p-2 mb-3">
+                    <img
+                      class="d-block d-dark-mode-none m-1"
+                      src="assets/icon/unggulan-1.png"
+                      width="28"
+                      alt="Icon"
+                    /><img
+                      class="d-none d-dark-mode-block m-1"
+                      src="assets/icon/unggulan-1.png"
+                      width="28"
+                      alt="Icon"
+                    />
+                  </div>
+                  <h3 class="h5 mb-2">JW mulai dari 3, 6 dan 12 bulan</h3>
+                  <p class="fs-sm mb-0">
+                    Eu dignissim arcu, iaculis orci hendrerit commodo leo eget
+                  </p>
+                </div>
+                <div class="col mb-4">
+                  <div class="d-table bg-secondary rounded-1 p-2 mb-3">
+                    <img
+                      class="d-block d-dark-mode-none m-1"
+                      src="assets/icon/unggulan-2.png"
+                      width="28"
+                      alt="Icon"
+                    /><img
+                      class="d-none d-dark-mode-block m-1"
+                      src="assets/icon/unggulan-2.png"
+                      width="28"
+                      alt="Icon"
+                    />
+                  </div>
+                  <h3 class="h5 mb-2">Suku bunga mulai dari 1,5% / bulan</h3>
+                  <p class="fs-sm mb-0">
+                    Adipiscing in aliquam iaculis pellentesque facilisi commo
+                  </p>
+                </div>
+                <div class="col mb-4">
+                  <div class="d-table bg-secondary rounded-1 p-2 mb-3">
+                    <img
+                      class="d-block d-dark-mode-none m-1"
+                      src="assets/icon/unggulan-3.png"
+                      width="28"
+                      alt="Icon"
+                    /><img
+                      class="d-none d-dark-mode-block m-1"
+                      src="assets/icon/unggulan-3.png"
+                      width="28"
+                      alt="Icon"
+                    />
+                  </div>
+                  <h3 class="h5 mb-2">Proses kredit yang mudah dan cepat</h3>
+                  <p class="fs-sm mb-0">
+                    Adipiscing in aliquam iaculis pellentesque facilisi commo
+                  </p>
+                </div>
+                <div class="col mb-4">
+                  <div class="d-table bg-secondary rounded-1 p-2 mb-3">
+                    <img
+                      class="d-block d-dark-mode-none m-1"
+                      src="assets/icon/unggulan-4.png"
+                      width="28"
+                      alt="Icon"
+                    /><img
+                      class="d-none d-dark-mode-block m-1"
+                      src="assets/icon/unggulan-4.png"
+                      width="28"
+                      alt="Icon"
+                    />
+                  </div>
+                  <h3 class="h5 mb-2">
+                    Fasilitas fleksibel, dapat digunakan sesuai keperluan
+                  </h3>
+                  <p class="fs-sm mb-0">
+                    Adipiscing in aliquam iaculis pellentesque facilisi commo
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Service -->
+      <section class="container py-5 pb-xxl-3 my-5">
+        <div class="row">
+          <div class="col-lg-4 pb-3 mb-3">
+            <h2 class="h1">Jenis Pinjaman</h2>
+            <p class="pe-5 mb-0">
+              With the support of our result driven team you can solve many
+              challenges.
+            </p>
+          </div>
+          <div class="col-lg-8">
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+              <div class="col">
+                <!-- Item-->
+                <div class="card border-0 bg-secondary rounded-5 mb-4">
+                  <div class="card-body pb-3">
+                    <svg
+                      class="d-block mt-1 mt-sm-0 mb-4"
+                      width="40"
+                      height="40"
+                      viewBox="0 0 40 40"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g class="text-info">
+                        <path
+                          d="M34.9811 16.2655C34.3635 26.3194 26.3194 34.3634 16.2656 34.981V40H40V16.2655H34.9811Z"
+                          fill="currentColor"
+                        ></path>
+                      </g>
+                      <g class="text-info">
+                        <path
+                          d="M15.0195 30.0413C23.3152 30.0413 30.0403 23.3163 30.0403 15.0205H15.0195V30.0413Z"
+                          fill="currentColor"
+                        ></path>
+                      </g>
+                      <g class="text-danger">
+                        <path
+                          d="M29.1953 10.0415C27.141 4.19328 21.571 0 15.0208 0C6.725 0 0 6.725 0 15.0208C0 21.571 4.19328 27.141 10.0415 29.1953V10.0415H29.1953Z"
+                          fill="currentColor"
+                        ></path>
+                      </g>
+                    </svg>
+                    <h3 class="h4">Development</h3>
+                    <p class="mb-0">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Phasellus eget molestie massa. Donec egestas nulla
+                      pariatur.
+                    </p>
+                  </div>
+                  <div class="card-footer border-0 pt-3 mb-3">
+                    <a
+                      class="btn btn-icon btn-lg btn-outline-danger rounded-circle stretched-link"
+                      href="#"
+                      ><i class="bi bi-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <!-- Item-->
+                <div class="card border-0 bg-secondary rounded-5">
+                  <div class="card-body pb-3">
+                    <svg
+                      class="d-block mt-1 mt-sm-0 mb-4"
+                      width="40"
+                      height="40"
+                      viewBox="0 0 40 40"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g class="text-info">
+                        <path
+                          d="M20.0004 36.0226L10.982 21.3535C9.42594 23.3156 8.49609 25.7968 8.49609 28.4955C8.49609 34.8492 13.6467 39.9998 20.0004 39.9998C26.3541 39.9998 31.5047 34.8492 31.5047 28.4955C31.5047 25.7969 30.5749 23.3156 29.0188 21.3535L20.0004 36.0226Z"
+                          fill="currentColor"
+                        ></path>
+                      </g>
+                      <g class="text-danger">
+                        <path
+                          d="M39.3962 0H0.605469L20.0009 31.5477L39.3962 0ZM25.7601 7.62359L20.0009 16.9914L14.2416 7.62359H25.7601Z"
+                          fill="currentColor"
+                        ></path>
+                      </g>
+                    </svg>
+                    <h3 class="h4">Business copywriting</h3>
+                    <p class="mb-0">
+                      Find aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur neque congue
+                      aliqua dolor.
+                    </p>
+                  </div>
+                  <div class="card-footer border-0 pt-3 mb-3">
+                    <a
+                      class="btn btn-icon btn-lg btn-outline-danger rounded-circle stretched-link"
+                      href="#"
+                      ><i class="bi bi-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <!-- Item-->
+                <div class="card border-0 bg-secondary rounded-5 mb-4">
+                  <div class="card-body pb-3">
+                    <svg
+                      class="d-block mt-1 mt-sm-0 mb-4"
+                      width="40"
+                      height="40"
+                      viewBox="0 0 40 40"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g class="text-danger">
+                        <path
+                          d="M25.2791 12.7502C28.1954 9.83389 28.1954 5.10556 25.2791 2.18921C22.3627 -0.727136 17.6344 -0.727137 14.718 2.18921C11.8017 5.10556 11.8017 9.83389 14.718 12.7502C17.6344 15.6666 22.3627 15.6666 25.2791 12.7502Z"
+                          fill="currentColor"
+                        ></path>
+                      </g>
+                      <g class="text-info">
+                        <path
+                          d="M14.6859 29.3056C15.6559 27.0123 16.9202 24.8838 18.4577 22.9467C13.8666 17.9802 7.29664 14.8701 0 14.8701V40.0004H12.5259C12.5259 36.2925 13.2527 32.6942 14.6859 29.3056Z"
+                          fill="currentColor"
+                        ></path>
+                      </g>
+                      <g class="text-danger">
+                        <path
+                          d="M40.0014 40.0004V14.8701C26.1223 14.8701 14.8711 26.1214 14.8711 40.0004H40.0014Z"
+                          fill="currentColor"
+                        ></path>
+                      </g>
+                    </svg>
+                    <h3 class="h4">Design and branding</h3>
+                    <p class="mb-0">
+                      More erat leo proin odio est sed sit felis facilisi
+                      integer sed congue neque turpis dictumst sit sed volutpat
+                      aliquet tortor non aute irure dolor in reprehenderit in
+                      posuere dui amet augue nisl dictum.
+                    </p>
+                  </div>
+                  <div class="card-footer border-0 pt-3 mb-3">
+                    <a
+                      class="btn btn-icon btn-lg btn-outline-danger rounded-circle stretched-link"
+                      href="#"
+                      ><i class="bi bi-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <!-- Item-->
+                <div class="card border-0 bg-secondary rounded-5">
+                  <div class="card-body pb-3">
+                    <svg
+                      class="d-block mt-1 mt-sm-0 mb-4"
+                      width="40"
+                      height="40"
+                      viewBox="0 0 40 40"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g class="text-danger">
+                        <path
+                          d="M19.9999 0C11.1313 0 3.61211 5.77313 0.992188 13.7659H39.0077C36.3877 5.77313 28.8686 0 19.9999 0Z"
+                          fill="currentColor"
+                        ></path>
+                      </g>
+                      <g class="text-info">
+                        <path
+                          d="M7.29328 16.1094H0.379453C0.131328 17.368 0 18.6684 0 19.9998C0 26.9291 3.52437 33.0348 8.87797 36.6237L18.3427 27.1589L7.29328 16.1094Z"
+                          fill="currentColor"
+                        ></path>
+                      </g>
+                      <g class="text-danger">
+                        <path
+                          d="M10.9688 37.848C13.6819 39.2238 16.7505 39.9998 20.0007 39.9998C31.0464 39.9998 40.0007 31.0455 40.0007 19.9998C40.0007 18.6684 39.8694 17.3679 39.6213 16.1094H32.7074L10.9688 37.848Z"
+                          fill="currentColor"
+                        ></path>
+                      </g>
+                    </svg>
+                    <h3 class="h4">Consulting</h3>
+                    <p class="mb-0">
+                      Ut eu amet ac blandit nisl malesuada lectus viverra arcu
+                      in rhoncus egestas lorem consequat sollicitudin risus, in
+                      pellentesque tellus tincidunt purus viverra dignissim.
+                    </p>
+                  </div>
+                  <div class="card-footer border-0 pt-3 mb-3">
+                    <a
+                      class="btn btn-icon btn-lg btn-outline-danger rounded-circle stretched-link"
+                      href="#"
+                      ><i class="bi bi-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Area -->
+      <section class="bg-danger py-6">
+        <div class="position-relative zindex-5 container py-2">
+          <div class="row align-items-center">
+            <div
+              class="col-lg-5 offset-lg-1 order-lg-2 pb-5 pb-lg-0 text-center text-lg-start"
+            >
+              <h2 class="text-light">Cakupan Area</h2>
+              <p class="text-light mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam.
+              </p>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+              <img src="assets/image/indonesia-location.png" alt="" />
+              <div class="row">
+                <div class="col-sm-4 mb-2 pb-4 mb-sm-0 pb-sm-0">
+                  <div class="px-2 text-center">
+                    <img
+                      width="50"
+                      height="50"
+                      src="https://img.icons8.com/ios/50/ffffff/marker--v1.png"
+                      alt="marker--v1"
+                    />
+
+                    <p class="fs-lg fw-medium text-light mb-0 pt-1">
+                      Jabodetabek
+                    </p>
+                  </div>
+                </div>
+                <div class="col-sm-4 mb-2 pb-4 mb-sm-0 pb-sm-0">
+                  <div class="px-2 text-center">
+                    <img
+                      width="50"
+                      height="50"
+                      src="https://img.icons8.com/ios/50/ffffff/marker--v1.png"
+                      alt="marker--v1"
+                    />
+                    <p class="fs-lg fw-medium text-light mb-0 pt-1">Surabaya</p>
+                  </div>
+                </div>
+                <div class="col-sm-4 mb-2 pb-4 mb-sm-0 pb-sm-0">
+                  <div class="px-2 text-center">
+                    <img
+                      width="50"
+                      height="50"
+                      src="https://img.icons8.com/ios/50/ffffff/marker--v1.png"
+                      alt="marker--v1"
+                    />
+                    <p class="fs-lg fw-medium text-light mb-0 pt-1">Bali</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Penerima Pinjaman -->
+      <section class="container py-5 my-md-2 my-lg-3 my-xl-4 my-xxl-5">
+        <div class="row align-items-center py-1 py-sm-3 py-md-4 my-lg-2">
+          <div class="col-lg-4 offset-xl-1">
+            <h2 class="h1 text-center text-lg-start pb-3 pb-lg-1">
+              Penerima Pinjaman <span class="text-danger">PD</span>aja.com
+            </h2>
+            <!-- Show on screens > 992px-->
+            <ul class="list-unstyled d-none d-lg-block pb-3 mb-3 mb-lg-4">
+              <li class="d-flex pt-2">
+                <span class="display-5 fs-4 mt-n1 me-4" style="color: #16c995"
+                  >10%</span
+                >Profesional
+              </li>
+              <li class="d-flex pt-2">
+                <span class="display-5 fs-4 mt-n1 me-4" style="color: #6a9bf4"
+                  >20%</span
+                >
+                Karyawan
+              </li>
+
+              <li class="d-flex pt-2">
+                <span class="display-5 fs-4 mt-n1 me-4" style="color: #f74f78"
+                  >67%</span
+                >Pengusaha
+              </li>
+
+              <li class="d-flex pt-2">
+                <span class="display-5 fs-4 mt-n1 me-4" style="color: #fcd733"
+                  >2%</span
+                >Pensiunan
+              </li>
+            </ul>
+            <a class="btn btn-danger d-none d-lg-inline-flex" href="#"
+              >See all servises</a
+            >
+          </div>
+          <div class="col-lg-8 col-xl-7 col-xxl-6">
+            <div
+              class="ct-chart ct-perfect-fifth"
+              data-pie-chart='{"series": [10.3,20.6,67.0,2.1]}'
+              ,
+              data-series-color='{"colors": ["#6a9bf4", "#16c995", "#f74f78","#FCD733"]}'
+            ></div>
+            <div
+              class="d-flex mt-4 flex-wrap d-lg-none justify-content-center fs-sm"
+            >
+              <div class="border rounded-1 py-1 px-2 me-2 mb-2">
+                <div
+                  class="d-inline-block align-middle me-1"
+                  style="
+                    width: 0.75rem;
+                    height: 0.75rem;
+                    background-color: #6a9bf4;
+                  "
+                ></div>
+                <span class="d-inline-block align-middle">Profesional</span>
+              </div>
+              <div class="border rounded-1 py-1 px-2 me-2 mb-2">
+                <div
+                  class="d-inline-block align-middle me-1"
+                  style="
+                    width: 0.75rem;
+                    height: 0.75rem;
+                    background-color: #16c995;
+                  "
+                ></div>
+                <span class="d-inline-block align-middle">Karyawan</span>
+              </div>
+              <div class="border rounded-1 py-1 px-2 me-2 mb-2">
+                <div
+                  class="d-inline-block align-middle me-1"
+                  style="
+                    width: 0.75rem;
+                    height: 0.75rem;
+                    background-color: #f74f78;
+                  "
+                ></div>
+                <span class="d-inline-block align-middle">Pengusaha</span>
+              </div>
+              <div class="border rounded-1 py-1 px-2 me-2 mb-2">
+                <div
+                  class="d-inline-block align-middle me-1"
+                  style="
+                    width: 0.75rem;
+                    height: 0.75rem;
+                    background-color: #fcd733;
+                  "
+                ></div>
+                <span class="d-inline-block align-middle">Pensiunan</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer bg-dark pt-5 pt-md-6">
+        <div class="container pt-3 pt-md-0">
+          <div class="row pb-3">
+            <div class="col-md-4 mt-n2 pb-3 pb-md-0 mb-4">
+              <a class="d-block mb-3" href="index.html" style="width: 153px"
+                ><img src="assets/icon/pdajacom.png" alt="Around"
+              /></a>
+              <p class="fs-sm text-light opacity-60 pb-2 pb-sm-3">
+                Sampoerna Strategic Square North Tower Lt. 17 <br />Jl. Jend
+                Sudirman Kav 45 Jakarta Selatan 12930
+              </p>
+
+              <a
+                class="btn-social bs-outline bs-facebook bs-light bs-lg me-2 mb-2"
+                href="#"
+                ><i class="bi bi-facebook"></i></a
+              ><a
+                class="btn-social bs-outline bs-twitter bs-light bs-lg me-2 mb-2"
+                href="#"
+                ><i class="bi bi-twitter"></i></a
+              ><a
+                class="btn-social bs-outline bs-instagram bs-light bs-lg me-2 mb-2"
+                href="#"
+                ><i class="bi bi-instagram"></i></a
+              ><a
+                class="btn-social bs-outline bs-google bs-light bs-lg me-2 mb-2"
+                href="#"
+                ><i class="bi bi-google"></i
+              ></a>
+            </div>
+            <div class="col-md-2 col-sm-4 ms-auto pb-1 mb-4">
+              <div class="widget widget-light">
+                <h4 class="widget-title">Company</h4>
+                <ul>
+                  <li><a class="widget-link" href="#">About</a></li>
+                  <li><a class="widget-link" href="#">Careers</a></li>
+                  <li><a class="widget-link" href="#">Press</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 pb-1 mb-4">
+              <div class="widget widget-light">
+                <h4 class="widget-title">Communities</h4>
+                <ul>
+                  <li><a class="widget-link" href="#">For artists</a></li>
+                  <li><a class="widget-link" href="#">Developers</a></li>
+                  <li><a class="widget-link" href="#">Brands</a></li>
+                  <li><a class="widget-link" href="#">Investors</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 mb-4">
+              <div class="widget widget-light">
+                <h4 class="widget-title">Our news</h4>
+                <ul>
+                  <li><a class="widget-link" href="#">Latest news</a></li>
+                  <li><a class="widget-link" href="#">Updates</a></li>
+                  <li><a class="widget-link" href="#">Campaigns</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr class="my-0 border-light" />
+          <div class="row align-items-center mt-3 py-4">
+            <div class="col-md-6 order-md-2 text-md-end mb-3">
+              <ul class="list-inline fs-sm mb-0">
+                <li class="list-inline-item">
+                  <a class="nav-link-style nav-link-light" href="#">Support</a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="nav-link-style nav-link-light" href="#">Contacts</a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="nav-link-style nav-link-light" href="#"
+                    >Terms &amp; Conditions</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 order-md-1 mb-3">
+              <p class="fs-sm mb-0">
+                <span class="text-light opacity-50 me-1"
+                  >© All rights reserved. Made by</span
+                ><a
+                  class="nav-link-style nav-link-light"
+                  href="#"
+                  target="_blank"
+                  rel="noopener"
+                  >Netfin</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="vendor/chartist/dist/chartist.js"></script>
+    <script
+      rel="stylesheet"
+      media="screen"
+      src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <script
+      rel="stylesheet"
+      media="screen"
+      src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"
+    ></script>
+
+    <script src="js/theme.min.js"></script>
+
+    <script>
+      // Get references to the button and the img element
+      const menuButton = document.getElementById("menuButton");
+      const menuIcon = document.getElementById("menuIcon");
+
+      // Define the two different icon sources
+      const initialIconSrc = "https://img.icons8.com/ff0101/40/menu--v1.png";
+      const newIconSrc = "https://img.icons8.com/ff0101/40/multiply.png";
+
+      // Add a click event listener to the button
+      menuButton.addEventListener("click", () => {
+        // Check if the current source is the initial icon
+        if (menuIcon.src === initialIconSrc) {
+          // If it is, change it to the new icon
+          menuIcon.src = newIconSrc;
+        } else {
+          // If it's not, change it back to the initial icon
+          menuIcon.src = initialIconSrc;
+        }
+      });
+    </script>
+  </body>
+</html>
